@@ -12,20 +12,22 @@
 </head>
 
 <body>
-    <nav class="navbar background-nav">
-        <ul class="nav-list">
+    <nav class="navbar background-nav h-nav-resp">
+        <ul class="nav-list visibility-class-resp ">
             <div class="logo"><img src="./image/CodeBitsLogo1.jpg" alt="logo"></div>
-            <!-- <div class="nav-list-element-wrapper"> -->
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="https://www.youtube.com/channel/UCbMkVBzjjDSmlFZglkBSCqQ" target="_blank">Contact Us</a>
-                </li>
-            <!-- </div> -->
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="https://www.youtube.com/channel/UCbMkVBzjjDSmlFZglkBSCqQ" target="_blank">Contact Us</a></li>
         </ul>
-        <div class="right-nav">
+        <div class="right-nav visibility-class-resp">
             <input type="text" name="search" id="search">
-            <button class="btn bt-sm">Search</button>
+            <button class="btn bt-sm btn-search">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </nav>
 
@@ -54,6 +56,8 @@
     <a href="./about.html">About</a>
     <a href="./Services.html">Services</a>
     <a href="https://www.youtube.com/channel/UCbMkVBzjjDSmlFZglkBSCqQ" target="_blank">Contact Us</a> -->
-</body> 
+
+    <script src="./JS/resp.js"></script>
+</body>
 
 </html>
