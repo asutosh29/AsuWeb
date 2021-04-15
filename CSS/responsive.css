@@ -1,0 +1,65 @@
+@media only screen and (max-width: 666px) {
+    .navbar{
+        height: 370px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .nav-list {
+        flex-direction: column;
+    }
+    .nav-list li {
+        padding: 10px 10px;
+    }
+    .nav-list li a {
+        font-size: 15px;
+    }
+    .right-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #search {
+        margin: 2px 0px;
+    }
+    .btn-search {
+        font-size: 12px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 50px;
+    }
+    .visibility-class-resp{
+        opacity: 0;
+    }
+    .main-box{
+        margin:auto;
+        padding-top: 10px;
+        flex-direction: column-reverse;
+        align-items: center;
+        max-width: 100%;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionContent{
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 105vh;
+        justify-content: center;
+    }
+    .sectionText p{
+        padding: 0px 0px;
+        width: 125%;
+    }
+
+
+
+}
